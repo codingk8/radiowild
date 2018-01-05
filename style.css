@@ -1,0 +1,135 @@
+/* Wild Code Sschool Paris Late 2017 Hackaton 1 Radiowild project
+
+Team Codingk8 FabWild Hotsockets cmeshorer
+
+font-family: 'Ubuntu', sans-serif;
+color brown: #998B58
+color blue: #51E7FF
+*/
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    background-color: white;
+}
+
+p {
+    font-size: 1.5em;
+    color: #51E7FF;
+}
+
+.logo {
+    width: 25px;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #998B58;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.radio {
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    border-color: #998B58;
+    border-style: solid;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #51E7FF;
+    color:#998B58;
+}
+
+#webradio {
+    margin-bottom: 15px;
+}
+
+.vote {
+    color: #51E7FF;
+    width: 40%;
+    margin-left: 30%;
+    font-weight: bold;
+}
+
+/* Improve the button !!! */
+#clickMe {
+    font-family: 'Ubuntu', sans-serif;
+    color: #998B58;
+    background-color: #51E7FF;
+    border-radius: 15px;
+    border: none;
+    font-size: 1em;
+    margin-top: 10px;
+    padding: 20px;;
+}
+
+#clickMe:hover {
+    background-color: #998B58;
+    color: white;
+}
+
+input {
+    text-align: left;
+    margin-left: 100px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    border-color: #998B58;
+    border-style: solid;
+    background-color: #998B58;
+    color: #51E7FF;
+    font-size: 1em;
+    border-radius: 15px;
+    margin-left: 14px;
+    margin-right: 14px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.bologo {
+    width: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+.git {
+    margin-left: 5px;
+}
+
+.git2 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Beginning Footer links behavior */
+a.git, a.git2 {
+    color: #51E7FF;
+    text-decoration: underline;
+  }
+  
+  a.git:hover, a.git2:hover {
+    color: white;
+    text-decoration: none;
+  }
+  /* End Footer links behavior */
+
+  /* In the About section
+  ul,
+  li {
+      font-family: 'Grand Hotel', cursive;
+      color: darkorange;
+      font-size: 1.2em;
+  }
+  */
+
+/* Media queries */
+
+

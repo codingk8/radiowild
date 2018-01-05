@@ -1,0 +1,145 @@
+<!-- Wild Code Sschool Paris Late 2017 Hackaton 1 Radiowild project
+
+Team Codingk8 FabWild Hotsockets cmeshorer -->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+        <meta name="description" content="Wild Code School Paris Late 2017 Hackaton 1 Radiowild project" />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- Favicon links -->
+        <link rel="icon" type="image/png" href="images/radiofav.png" />
+        <link rel="shortcut icon", type="image/x-icon", href="/images/radiofav.ico" />
+
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+        <title>Radiowild</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+
+    <body id="container">
+                
+        <header>
+            <h1><img class="logo" src="images/radiologo.png" alt"Radiowild logo" />Welcome on Radiowild</h1>
+        </header>
+
+        <div class="radio">
+            <section id="name"></section>
+            <section id="webradio"></section>
+        </div>
+
+        <section>
+            <form id="myForm" method="post" action="traitement.php">
+                <p class="vote">Choose your background music below<br />
+                    <input type="radio" name="musique" value="0" id="silence" /> <label for="silence">(silence)</label><br />
+                    <input type="radio" name="musique" value="1" id="funk" /> <label for="funk">Funk</label><br />
+                    <input type="radio" name="musique" value="2" id="classique" /> <label for="classique">Classical</label><br />
+                    <input type="radio" name="musique" value="3" id="reggae" /> <label for="reggae">Reggae</label><br />
+                    <input type="radio" name="musique" value="4" id="rock" /> <label for="rock">Rock'n Roll</label><br />
+                    <input type="radio" name="musique" value="5" id="drum'n'bass" /> <label for="drum'n'bass">Drum'n Bass</label><br />
+                    <input type="radio" name="musique" value="6" id="jazz" /> <label for="jazz">Jazz</label><br />
+                    <input type="button" id="clickMe" value="Play that for me please !">
+                </p>
+            </form>
+        </section>
+
+        <!--
+            <p>Bonjour,<br />ce site permet aux élèves de la Wild Code School Paris de <strong>choisir la musique d'ambiance de leur campus</strong>.<br />Cette musique est diffusée tous les jours de :</p>
+            <ul>
+            <li>7h30 à 9h30 (diminution du volume à 9h00),</li>
+            <li>de 12h00 à 14h00,</li>
+            <li>de 18h00 à 21h00.</li>
+            </ul>
+
+            <p>Afin de rendre vos journées sur le campus le plus agréable possible, nous vous proposons un choix entre <strong>six ambiances</strong> possibles :</p>
+            <ul>
+            <li>drum'n'bass,</li>
+            <li>jazz,</li>
+            <li>funk,</li>
+            <li>reggae,</li>
+            <li>rock,</li>
+            <li>classique.</li>
+            </ul>
+
+            <p>A tout moment vous pouvez exprimer votre choix concernant la musique de la plage d'écoute à venir.<br />Les votes sont comptabilisés cinq minutes avant le démarrage de la plage concernée.<br />Vous pouvez exprimer votre choix dans le formulaire situé en haut de la page (un seul choix possible que vous pouvez modifier à tout moment jusqu'à cinq minutes avant le démarrage de la prochaine plage musicale.</p>
+        -->
+
+        <footer>
+            Made with code and care in Paris, France ©<a href="https://wildcodeschool.fr/" target="_blank"><img class="bologo" src="images/lebeaulogodelawcs.png" alt="Le beau logo de la Wild Code School" title="Le beau logo de la Wild Code School" /></a>+<a class="git" href="https://github.com/codingk8" target="_blank">Codingk8,</a><a class="git" href="https://github.com/FabWild" target="_blank">Fabwild,</a><a class="git2" href="https://github.com/Hotsockets" target="_blank">Hotsockets</a>&<a class="git" href="https://github.com/cmeshorer" target="_blank">cmeshorer</a>
+        </footer>
+
+        <!-- Rajouter l'appel de JQuery -->
+        <script type="text/javascript">
+        const choix =
+        {
+            "Ambiances": [
+            {"Genre":"silence", "URL":""},
+            {"Genre":"Funk music", "URL":"http://178.79.158.160:8022/stream?lang=en-US%2cen%3bq%3d0.8%2ces%3bq%3d0.6"},
+            {"Genre":"Classical music", "URL":"https://listen.radionomy.com/radio-mozart?d=YXBwTmFtZT13ZWJzaXRlJmFkPXJhZGlvbm81JnJlZmVyZXI9aHR0cCUzQSUyRiUyRnd3dy5yYWRpb21vemFydC5jb20lMkY="},
+            {"Genre":"Reggae music", "URL":"http://64.71.79.181:9998/stream"},
+            {"Genre":"Rock'n Roll music", "URL":"http://138.201.248.219:8018/stream"},
+            {"Genre":"Drum'n Bass music", "URL":"http://source.dnbradio.com:8000/dnbradio_main.mp3"},
+            {"Genre":"Jazz music", "URL":"http://listen.radionomy.com/ABC-Lounge"}]
+            };
+            //    console.log(choix.Ambiances[0].Genre, choix.Ambiances[2].URL);
+            let c = {
+            "votes": [
+                {"choix" : 0},
+                {"choix" : 0},
+                {"choix" : 0},
+                {"choix" : 0},
+                {"choix" : 0},
+                {"choix" : 0},
+                {"choix" : 0}]
+            };
+            $(document).ready(function(){
+                $("#clickMe").click(function () {
+                let i = $('input:radio[name=musique]:checked').val();
+                c.votes[i].choix++;
+                //          console.log(c.votes[i].choix);
+                document.getElementById("myForm").reset();
+                }
+            )
+            $("#clickMe").click(function () {
+            });
+            });
+            let genre_max = 0;
+            setInterval(function(){
+            //      document.getElementById("myclock").innerHTML = new Date().getHours()+":"+new Date().getMinutes()+":"+new Date().getSeconds();
+            let max = 0;
+            for(let i = 0; i < c.votes.length; i++) {
+                if (c.votes[i].choix > max){
+                max = c.votes[i].choix;
+                genre_max = i;
+                }
+                console.log(i,' : ',c.votes[i].choix);
+                console.log("votes max : ", genre_max);
+            }
+            setRadio(genre_max);
+            c = {
+                "votes": [
+                {"choix" : 0},
+                {"choix" : 0},
+                {"choix" : 0},
+                {"choix" : 0},
+                {"choix" : 0},
+                {"choix" : 0},
+                {"choix" : 0}]
+                };
+            }, 10000);
+            function setRadio(i) {
+            let myURL = choix.Ambiances[i].URL;
+            console.log(i);
+            document.getElementById('name').innerHTML = '<p>You are listening to '+ choix.Ambiances[i].Genre +'</p>';
+            document.getElementById('webradio').innerHTML = '<audio controls autoplay="TRUE" src="'+myURL+'"></audio>';
+        }
+        //document.getElementById('webradio').innerHTML = '<audio controls autoplay="FALSE" src="http://source.dnbradio.com:8000/dnbradio_main.mp3"></audio>';
+        </script>
+
+    </body>
+</html>

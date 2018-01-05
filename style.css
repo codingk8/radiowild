@@ -9,7 +9,7 @@ color blue: #51E7FF
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     background-color: white;
 }
 
@@ -86,7 +86,7 @@ footer {
     border-style: solid;
     background-color: #998B58;
     color: #51E7FF;
-    font-size: 1em;
+    font-size: 1.2em;
     border-radius: 15px;
     margin-left: 14px;
     margin-right: 14px;
@@ -111,12 +111,12 @@ footer {
 
 /* Beginning Footer links behavior */
 a.git, a.git2 {
-    color: #51E7FF;
+    color: white;
     text-decoration: underline;
   }
   
   a.git:hover, a.git2:hover {
-    color: white;
+    color: #51E7FF;
     text-decoration: none;
   }
   /* End Footer links behavior */

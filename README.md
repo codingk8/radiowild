@@ -1,4 +1,4 @@
-![Radiowild](https://s26.postimg.org/axx53f2zt/radiowildfulllogo.png)
+![Radiowild](https://s26.postimg.org/u30edbmuh/radiowildfulllogo250.png)
 
 # 🇬🇧 The Radiowild project
 

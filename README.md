@@ -1,4 +1,4 @@
-![Radiowild](https://s26.postimg.org/3zxmbamk9/radiowildfulllogo250.png "Radiowild ReadMe logo")
+<p align="center"><img src="https://s26.postimg.org/qky3f61tl/radiowildlogocorne250.png" alt="Radiowild ReadMe logo")</p>
 
 # 🇬🇧 The Radiowild project
 

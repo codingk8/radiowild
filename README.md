@@ -12,9 +12,11 @@ Radiowild was a team project for the Wild Code School Paris Late 2017 Hackathon 
 **The music comes from webradios.**  
 **We used a little help from [Unsplash](https://unsplash.com) for the background picture and [Canva](https://canva.com) for the logo above.**
 
-Photo credit : photo by [Dane Deaner](https://unsplash.com/@danedeaner?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge) on [Unsplash](https://unsplash.com).
+> Hosted demo website: [Radiowild](https://codingk8.github.io/radiowild/)
 
-*Disclaimer : this project has no commercial purpose.*
+Photo credit: photo by [Dane Deaner](https://unsplash.com/@danedeaner?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge) on [Unsplash](https://unsplash.com).
+
+*Disclaimer: this project has no commercial purpose.*
 
 # 🇫🇷 Le projet Radiowild
 
@@ -27,6 +29,8 @@ Radiowild était un projet collectif du premier hackathon de la Wild Code School
 **Le projet utilise du HTML, du CSS, du JS et du jQuery.**  
 **La musique vient de radio en ligne.**  
 **Nous avons eu recours à [Unsplash](https://unsplash.com) pour la photo d'arrière-plan et à [Canva](https://canva.com) pour le logo ci-dessus.**
+
+> Site de démo hébergé : [Radiowild](https://codingk8.github.io/radiowild/)
 
 Crédit photo : photo de [Dane Deaner](https://unsplash.com/@danedeaner?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge) sur [Unsplash](https://unsplash.com).
 

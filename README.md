@@ -2,7 +2,7 @@
 
 # 🇬🇧 The Radiowild project
 
-Radiowild was a team project for the Wild Code School Paris Late 2017 Hackathon 1.
+Radiowild was a team project for the "Wild Code School Paris Late 2017" first Hackathon.
 
 > Our goal was to build a POC for a solution allowing students to choose a background music 🎶🎷 to play on the campus.
 
@@ -20,7 +20,7 @@ Photo credit: photo by [Dane Deaner](https://unsplash.com/@danedeaner?utm_medium
 
 # 🇫🇷 Le projet Radiowild
 
-Radiowild était un projet collectif du premier hackathon de la Wild Code School Paris en octobre 2017.
+Radiowild était un projet collectif du premier hackathon de la promotion "Paris fin 2017" de la Wild Code School.
 
 > Notre objectif était de réaliser un POC pour que les élèvres puissent choisir une musique d'ambiance 🎶🎷 pour le campus.
 

@@ -1,4 +1,4 @@
-<p align="center"><img src="https://s26.postimg.org/qky3f61tl/radiowildlogocorne250.png" alt="Radiowild ReadMe logo")</p>
+<p align="center"><img src="https://s26.postimg.cc/qky3f61tl/radiowildlogocorne250.png" alt="Radiowild ReadMe logo")</p>
 
 # 🇬🇧 The Radiowild project
 
@@ -27,7 +27,7 @@ Radiowild était un projet collectif du premier hackathon de la Wild Code School
 > Notre idée a été de suggérer quelques thèmes musicaux et de permettre aux gens de voter. Ensuite, en fonction des votes, la musique choisie démarre.
 
 **Le projet utilise du HTML, du CSS, du JS et du jQuery.**  
-**La musique vient de radio en ligne.**  
+**La musique vient de radios en ligne.**  
 **Nous avons eu recours à [Unsplash](https://unsplash.com) pour la photo d'arrière-plan et à [Canva](https://canva.com) pour le logo ci-dessus.**
 
 > Site de démo hébergé : [Radiowild](https://codingk8.github.io/radiowild/)
@@ -35,7 +35,3 @@ Radiowild était un projet collectif du premier hackathon de la Wild Code School
 Crédit photo : photo de [Dane Deaner](https://unsplash.com/@danedeaner?utm_medium=referral&utm_campaign=photographer-credit&utm_content=creditBadge) sur [Unsplash](https://unsplash.com).
 
 *Avertissement : ce projet n'a pas d'objectif commercial.*
-
-
-
-

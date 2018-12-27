@@ -4,7 +4,7 @@
 
 Radiowild was a team project for the "Wild Code School Paris Late 2017" first Hackathon.
 
-> Our goal was to build a POC for a solution allowing students to choose a background music 🎶🎷 to play on the campus.
+> Our goal was to build a POC for a solution allowing students to choose a background music :musical_keyboard: to play on the campus.
 
 > Our idea was to suggest some music genres and allow people to vote. Then, according to the votes, the music genre chosen would be played.
 

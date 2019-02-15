@@ -28,10 +28,7 @@
 
 ## Authors
 
-[Codingk8](https://twitter.com/codingk8)
-[Fabwild](https://github.com/FabWild)
-[Hotsockets](https://github.com/Hotsockets)
-[cmeshorer](https://github.com/cmeshorer)
+[Codingk8](https://twitter.com/codingk8) | [Fabwild](https://github.com/FabWild) | [Hotsockets](https://github.com/Hotsockets) | [cmeshorer](https://github.com/cmeshorer)
 
 ## Acknowledgements & Resources
 
@@ -43,6 +40,6 @@ Photo credit: photo by [Dane Deaner](https://unsplash.com/@danedeaner?utm_medium
 
 ---
 
-<p align"center"><img src="https://media.giphy.com/media/l46CqqobS7VRaIpSE/giphy.gif" alt="Music!"></p>
+<p align="center"><img src="https://media.giphy.com/media/l46CqqobS7VRaIpSE/giphy.gif" alt="Music!"></p>
   
 

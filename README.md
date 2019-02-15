@@ -6,7 +6,7 @@
 
 ---
 
-<p align="center"><a src="https://codingk8.github.io/radiowild/><img src="https://github.com/codingk8/radiowild/blob/master/images/radiowild1650.png" alt="Radiowild ReadMe logo"></a></p>
+<p align="center"><a src="https://codingk8.github.io/radiowild/"><img src="https://github.com/codingk8/radiowild/blob/master/images/radiowild1650.png" alt="Radiowild ReadMe logo"></a></p>
   
 ---
 

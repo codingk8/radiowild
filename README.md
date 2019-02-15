@@ -1,4 +1,4 @@
-# The Radiowild :notes: project
+<h1 align="center">The Radiowild :notes: project</h1>
 
 ## This was a team project for the "Wild Code School Paris Late 2017" first Hackathon.
 

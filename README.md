@@ -2,7 +2,7 @@
 
 ## This project was a team project for the "Wild Code School Paris Late 2017" first Hackathon.
 
-## ## Screenshot + link to hosted demo website
+## Screenshot + link to hosted demo website
 
 ---
 

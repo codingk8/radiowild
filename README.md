@@ -14,8 +14,7 @@
 
 ##### Requirements were to build a POC for a solution allowing students to choose a background music :notes: to play on the campus.
 
-##### Our idea was to suggest some music genres and allow people to vote. 
-##### Then, according to the votes, the music genre chosen would be played.
+##### Our idea was to suggest some music genres and allow people to vote. Then play the music genre chosen in the votes.
 
 ## How it works
 
